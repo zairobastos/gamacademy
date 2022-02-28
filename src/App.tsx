@@ -1,11 +1,11 @@
 /* eslint-disable linebreak-style */
 import React from "react";
 // eslint-disable-next-line linebreak-style
-import Home from "./views/home/index";
+import Router from "./routes";
 function App() {
 	return (
 		<>
-			<Home/>
+			<Router/>
 		</>
 	);
 }
